@@ -23,17 +23,12 @@ function calculateFinalScore(obj) {
 
 // console.log(calculateFinalScore({ name: "Rajib", testScore: 45,  schoolGrade: 25, isFFamily : true  }))
 // console.log(calculateFinalScore({ name: "Rajib", testScore: 45,  schoolGrade: 25, isFFamily : false }))
-// console.log(
-//   calculateFinalScore({
-//     name: "Rajib",
-//     testScore: 15,
-//     schoolGrade: 25,
-//     isFFamily: true,
-//   })
-// );
+console.log(
+  calculateFinalScore({ name: "Rajib", testScore: 15,  schoolGrade: 30, isFFamily : true  })
+);
 
 // console.log(calculateFinalScore({}));
 
 // console.log(calculateFinalScore(["hello", "ade"]));
 // console.log(calculateFinalScore(null));
-// console.log(calculateFinalScore("string"));
+// console.log(calculateFinalScore("hello"));
